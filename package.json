@@ -1,17 +1,17 @@
 {
-    "name": "fullstack_demo",
-    "version": "1.0.0",
-    "engines": {
-        "node": ">=22.0.0"
-    },
-    "scripts": {
-        "dev": "docker-compose up",
-        "dev:local": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
-        "format": "prettier --write .",
-        "format:check": "prettier --check ."
-    },
-    "devDependencies": {
-        "concurrently": "^9.2.0",
-        "prettier": "^3.6.2"
-    }
+  "name": "fullstack_demo",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "docker-compose up",
+    "dev:local": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "prettier": "^3.6.2"
+  }
 }
